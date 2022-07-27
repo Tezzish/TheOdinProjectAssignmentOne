@@ -1,0 +1,51 @@
+.regularText,
+.headerText{
+    font-family: Arial;
+}
+/* texts used int the header*/
+.headerText{
+    color:white;
+}
+
+/* main div for header */
+#headerDiv{
+    margin-left:100px;
+    margin-right:100px;
+    display:flex;
+    padding-left:150px;
+    padding-right: 150px;
+}
+
+/* children of the header */
+.headerDivChilds{
+    flex:1;
+    
+}
+/* paragraph in the header */
+#headerp{
+    opacity: 80%;
+}
+
+/* sign up buttons */
+.signup{
+    color:white;
+    background-color: #3b82f6;
+    border-radius: 5px;
+    font-size: large;
+    border-style: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* items in the flexbox for the header */
+.flexitemHeader{
+    margin:0px;
+    flex:0;
+}
+
+/* heading in the header */
+#headerHeading{
+    font-weight:900;
+    font-size: 48px;
+    letter-spacing: 0px;
+}
