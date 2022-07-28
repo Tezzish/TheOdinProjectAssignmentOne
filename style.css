@@ -139,14 +139,23 @@ makes them vertical*/
 /*images for the main area*/
 .mainImages{
     width:300px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:#3b82f6;
+    border-width: 10px;
 }
+
 
 /*div container for images in the main area*/
 .mainImagesDiv{
-    border-style:solid;
-    border-radius: 10px;
-    border:#3b82f6;
-    border-width: 3px;
+    margin:120px;
+    max-height:200px;
+    overflow:-moz-hidden-unscrollable;
+}
+
+
+#mainImageContainer{
+    justify-content: center;
 }
 
 #mainHeader{
