@@ -2,30 +2,56 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>
-        Assignment One
+        Landing page
     </title>
 
-    <body style="background-color:#1f2937";>
+    <body id = "body">
         <!-- header area -->
         <div id="headerDiv" class="flex-container">
+
+            <!-- left child of the header div-->
             <div class="flex-container headerDivChilds">
-                <div class = "flex-container flexitemheader">
+
+                <!--The logo for the page-->
+                <div class = "flexitemheader">
+                    <img src = "images/Logo.jpeg" style = width:12.5%;>
+                </div>
+
+                <!--Header in the left child-->
+                <div class = "flexitemheader">
                     <h1 id="headerHeading" class="headerText">
-                    <b>This website is awesome</b>
+                    <b>Totally not a scam</b>
                     </h1>
                 </div>
-                <div class = "flex-container flexitemheader">
+
+                <!--Text below header + button-->
+                <div class = "flexitemheader">
                     <p class="headerText" id="headerp">
-                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+                        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
                     </p>
                     <button class="signup">
                         Sign up
                     </button>
                 </div>
             </div>
+
+            <!-- right child for header div -->
             <div class="flex-container headerDivChilds">
-                <img src = "./images/EdEddnEddy.jpeg">
+
+                <!--Links for pages on right child-->
+                <div class = "flexitemheader" id = "links">
+                    <h2> Header Logo </h2>
+                </div>
+
+                <!--image for right child-->
+                <div class="flexitemheader">
+                    <img src = "./images/EdEddnEddy.jpeg" class = "image">
+                </div>
+
             </div>
+        </div>
+        <div class = "main">
+            <p>test</p>
         </div>
         
         </body>
