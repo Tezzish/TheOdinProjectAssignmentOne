@@ -3,6 +3,18 @@
     font-family: Arial;
 }
 
+/*centers text*/
+.center{
+    text-align: center;
+}
+
+/*main body*/
+#body{
+    background-color: #1f2937;
+}
+
+/*--------------------------------------------Header section--------------------------------------------*/
+
 /* texts used int the header*/
 .headerText{
     color:white;
@@ -43,14 +55,14 @@
 }
 
 /* items in the flexboxes for the header 
-    makes them horizontal*/
+makes them horizontal*/
 .flexitemHeader{
     margin:0px;
     flex:0;
     display:flex
 }
 /* items in the flexboxes for the header 
-    makes them vertical*/
+makes them vertical*/
 .flexitemHeaderv{
     margin:0px;
     flex:1;
@@ -64,11 +76,40 @@
     letter-spacing: 0px;
 }
 
-/*main body*/
-#body{
-    background-color: #1f2937;
+/*div that contains the links in the header*/
+#links{
+    display:flex;
+    margin-bottom:20px;
 }
 
+/* the boxes for the links in the header */
+.linkboxes{
+    border-style: solid;
+    border-width: 3px;
+    border-color:#3b82f6;
+    border-top-width:0px;
+    background-color: white;
+    color:#1f2937;
+    align-items: center;
+}
+
+/*box for the first link*/
+#linkbox1{
+    border-radius: 0px 0px 0px 5px;
+    border-right-width: 1.5px;
+}
+
+/*box for the third link*/
+#linkbox3{
+    
+    border-radius: 0px 0px 5px 0px;
+    border-left-width: 1.5px;
+}
+
+#linkbox2{
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+}
 
 /*image for right header child*/
 .image{
@@ -78,6 +119,11 @@
     width: 80%;
 }
 
+.centerp{
+    display:block;
+}
+
+/*--------------------------------------------Main section--------------------------------------------*/
 /*main div*/
 .main{
     background-color: whitesmoke;
@@ -93,28 +139,4 @@
     border-width: 3px;
 }
 
-.center{
-    text-align: center;
-}
 
-#links{
-    display:flex;
-}
-
-.linkboxes{
-    border-width: 3px;
-    border-color:#3b82f6;
-    background-color: white;
-    color:#1f2937;
-}
-#linkbox1{
-    border-radius: 0px 0px 0px 5px;
-    border-color:#3b82f6;
-    border-width: 3px;
-}
-
-#linkbox3{
-    border-radius: 0px 0px 5px 0px;
-    border-color:#3b82f6;
-    border-width: 3px;
-}
