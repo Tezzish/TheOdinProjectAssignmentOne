@@ -19,11 +19,12 @@
     margin-top: 0;
 }
 
-/* children of the header */
+/* children of the header 
+    makes them horizontal*/
 .headerDivChilds{
     flex:1;
-    
 }
+
 /* paragraph in the header */
 #headerp{
     opacity: 80%;
@@ -41,10 +42,18 @@
     padding-right: 15px;
 }
 
-/* items in the flexboxes for the header */
+/* items in the flexboxes for the header 
+    makes them horizontal*/
 .flexitemHeader{
     margin:0px;
     flex:0;
+    display:flex
+}
+/* items in the flexboxes for the header 
+    makes them vertical*/
+.flexitemHeaderv{
+    margin:0px;
+    flex:1;
     display:flex
 }
 
@@ -60,24 +69,52 @@
     background-color: #1f2937;
 }
 
-#links{
-    text-align: center;
-}
 
+/*image for right header child*/
 .image{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
+/*main div*/
 .main{
     background-color: whitesmoke;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
 }
+
+/*images for the main area*/
 .mainImages{
     border-radius: 10px;
     border:#3b82f6;
+    border-width: 3px;
+}
+
+.center{
+    text-align: center;
+}
+
+#links{
+    display:flex;
+}
+
+.linkboxes{
+    border-width: 3px;
+    border-color:#3b82f6;
+    background-color: white;
+    color:#1f2937;
+}
+#linkbox1{
+    border-radius: 0px 0px 0px 5px;
+    border-color:#3b82f6;
+    border-width: 3px;
+}
+
+#linkbox3{
+    border-radius: 0px 0px 5px 0px;
+    border-color:#3b82f6;
     border-width: 3px;
 }
