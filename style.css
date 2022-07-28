@@ -55,15 +55,15 @@
 }
 
 /* items in the flexboxes for the header 
-makes them vertical*/
-.flexitemv{
+makes them horizontal*/
+.flexitemHeader{
     margin:0px;
     flex:0;
     display:flex
 }
 /* items in the flexboxes for the header 
-makes them horizontal*/
-.flexitemh{
+makes them vertical*/
+.flexitemHeaderv{
     margin:0px;
     flex:1;
     display:flex
