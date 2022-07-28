@@ -55,15 +55,15 @@
 }
 
 /* items in the flexboxes for the header 
-makes them horizontal*/
-.flexitemHeader{
+makes them vertical*/
+.flexitemv{
     margin:0px;
     flex:0;
     display:flex
 }
 /* items in the flexboxes for the header 
-makes them vertical*/
-.flexitemHeaderv{
+makes them horizontal*/
+.flexitemh{
     margin:0px;
     flex:1;
     display:flex
@@ -138,12 +138,15 @@ makes them vertical*/
 
 /*images for the main area*/
 .mainImages{
+    width:300px;
+}
+
+/*div container for images in the main area*/
+.mainImagesDiv{
+    border-style:solid;
     border-radius: 10px;
     border:#3b82f6;
     border-width: 3px;
-    width:300px;
-    object-fit: fill;
-    object-position: top;
 }
 
 #mainHeader{
