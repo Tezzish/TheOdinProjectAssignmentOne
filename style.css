@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Cooper Black';
+    src: url(Cooper\ Black\ Regular.ttf);
+}
+
 .regularText,
 .headerText{
     font-family: Arial;
@@ -142,7 +147,7 @@ makes them vertical*/
 #mainHeading{
     padding: 30px;
     font-size: 48px;
-    font-family: 'cooper-black-std', serif; 
+    font-family: 'Cooper Black', serif; 
     font-weight:300;
     color:#2e3d52;
 }
@@ -151,6 +156,15 @@ makes them vertical*/
 .mainImages{
     margin-top: 0px;
     width:300px;
+    margin-bottom: 0;
+   
+}
+
+/*div container for images in the main area*/
+.mainImagesDiv{
+    margin:120px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     border-style:solid;
     max-height:300px;
     overflow: hidden;
@@ -159,17 +173,25 @@ makes them vertical*/
     border-width: 10px;
 }
 
-/*div container for images in the main area*/
-.mainImagesDiv{
-    
-    margin:120px;
-    margin-top: 0px;
-}
-
 #mainImageContainer{
     justify-content: center;
 }
 
 #mainHeader{
     font-weight: 100;
+}
+
+.imageHeader{
+    font-size:48px;
+    font-weight:600;
+    font-family: 'Cooper Black';
+    color:#2e3d52;
+    margin-bottom: 24px;
+}
+
+.imageText{
+    font-size:24px;
+    font-weight:300;
+    font-family: 'Arial';
+    color:#415572;
 }
