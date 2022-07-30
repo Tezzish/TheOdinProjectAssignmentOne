@@ -199,6 +199,7 @@ makes them vertical*/
     font-weight:300;
     font-family: 'Arial';
     color:#415572;
+    padding-bottom: 50px;
 }
 
 /*-----------------------------------------Quote area-------------------------------------*/
@@ -214,8 +215,10 @@ makes them vertical*/
 }
 
 #quoteText{
-    font-size: 48px;
+    font-size: 32px;
     font-style: italic;
-    font-weight:100;
-    font-family: 'Cooper Black'
+    font-family: 'Cooper Black';
+    padding: 72px;
+    word-wrap: break-word;
+    
 }
