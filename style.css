@@ -254,19 +254,32 @@ makes them vertical*/
     background-color: #3b82f6;
     border-radius: 20px;
     min-height: 150px;
+    margin:100px;
+    color: white;
+}
+
+#signupheading{
     font-size:32px;
     font-weight:900;
     letter-spacing: -1.5px;
-    margin:100px;
-    color: white;
+    margin-top:0px;
+    margin-bottom:4px;
+    margin-left:32px;
+}
+
+#signuptext{
+    font-size:16px;
 }
 
 #signupbutton{
     border-style:solid;
     border-width: 4px;
     border-radius: 10px;
-    border-color: #2d64bd;
-    box-shadow: #1f2937;
+    border-color: #ffffff;
+    box-shadow: 0px 6px #1d417a;
+    font-size:24px;
+    font-weight:900;
+    margin-top: 16px;
 }
 
 .signupflexitems{
