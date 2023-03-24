@@ -168,17 +168,25 @@ makes them vertical*/
 
 /*div container for images in the main area*/
 .mainImagesDiv{
-    margin:72px;
+    margin:32px;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     border-style:solid;
     max-height:250px;
+    min-height: 250px;
+    max-width: 300px;
     max-width:300px;
     overflow: hidden;
     border-radius: 30px;
     border-color:#3b82f6;
-    border-width: 11px;
-    
+    border-width: 11px;    
+}
+
+.flexitemHeader{
+    margin:0px;
+    flex:0;
+    display:flex;
+    max-height: 700px;
 }
 
 /*main image container centering images*/
@@ -207,6 +215,11 @@ makes them vertical*/
     font-family: 'Arial';
     color:#415572;
     padding-bottom: 100px;
+    min-height: 200px;
+    max-width: 200px;
+    margin: 100px;
+    margin-top: 24px;
+    margin-bottom: 0px;
 }
 
 /*-----------------------------------------Quote area-------------------------------------*/
